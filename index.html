@@ -15,12 +15,6 @@
     <nav class="navbar">
         <div class="navbar_wrapper">
             <h1 class="brand">Latif Ariyadi & Dewi Rahmi</h1>
-            <menu class="navbar_menu">
-                <a href="#akad">akad</a>
-                <a href="#resepsi">resepsi</a>
-                <a href="#buku_tamu">buku tamu</a>
-                <a href="#map">map</a>
-            </menu>
         </div>
     </nav>
     <!-- END NAVIGASI BAR -->
@@ -31,114 +25,26 @@
             <p>Pernikahan</p>
             <h1>Latif & Dewi</h1>
             <p>Pekalongan, 9 November 2021</p>
+            <button onclick="isiBukuTamu()">Isi Buku Tamu</button>
         </div>
         <!-- END HERO -->
 
-        <!-- AKAD -->
-        <section class="akad" id="akad">
-            <h1 class="section_title">Akad Nikah</h1>
-            <div class="section_wrapper">
-                <div class="section_content">
-                    <h2>Pekalongan, 9 November 2021</h2>
-                    <p>Jl. Randu jaya no 12</p>
-                    <h2>08:00 WIB</h2>
-                </div>
-                <div class="section_image"></div>
-            </div>
+        <section>
+            <h1>Daftar Tamu</h1>
+            <table class="daftar_tamu_table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Lengkap</th>
+                        <th>Alamat</th>
+                        <th style="text-align: center">Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
         </section>
-        <!-- END AKAD -->
-
-        <!-- RESEPSI -->
-        <section class="resepsi" id="resepsi">
-            <h1 class="section_title">Resepsi</h1>
-            <div class="section_wrapper">
-                <div class="section_image"></div>
-                <div class="section_content">
-                    <h2>Pekalongan, 10 November 2021</h2>
-                    <p>Jl. Randu jaya no 12</p>
-                    <h2>12:00 WIB - Selesai</h2>
-                </div>
-            </div>
-        </section>
-        <!-- END RESEPSI -->
-
-        <!-- BUKU TAMU -->
-        <section class="buku_tamu" id="buku_tamu">
-            <h1 class="section_title">Buku Tamu</h1>
-            <div class="form_wrapper">
-                <form action="" class="form_buku_tamu">
-                    <div class="form_group">
-                        <label for="fullname">Nama</label>
-                        <input type="text" id="fullname" />
-                    </div>
-                    <div class="form_group">
-                        <label for="phone">Nomor Telephone</label>
-                        <input type="tel" id="phone" />
-                    </div>
-                    <div class="form_group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" />
-                    </div>
-                    <div class="form_group">
-                        <label for="address">Alamat</label>
-                        <input type="address" id="address" />
-                    </div>
-                    <button type="submit">Kirim</button>
-                </form>
-            </div>
-        </section>
-        <!-- END BUKU TAMU -->
-
-        <!-- MAP -->
-        <section class="map" id="map">
-            <h1 class="section_title">Peta Resepsi</h1>
-            <div class="section_wrapper">
-                <div class="section_content">
-                    <button class="btn_map">
-              <span class="material-symbols-outlined"> location_on </span>
-              Lihat Lokasi
-            </button>
-                    <button class="btn_map">
-              <span class="material-symbols-outlined"> calendar_month </span>
-              Save ke Kalender
-            </button>
-                    <button class="btn_map">
-              <span class="material-symbols-outlined"> share </span>
-              Share ke Instagram
-            </button>
-                </div>
-                <div class="section_map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.0998217677375!2d109.640192514318!3d-6.997524770476829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7021e85023d163%3A0xcf1900b802c7757!2sRandu%20Jaya!5e0!3m2!1sid!2sid!4v1660447405350!5m2!1sid!2sid "
-                        width="600 " height="450 " style="border: 0" allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
-                </div>
-            </div>
-        </section>
-        <!-- END MAP -->
-
-        <!-- GALLERY -->
-        <section class="gallery">
-            <h1 class="section_title">Gallery</h1>
-            <div class="section_wrapper">
-                <div class="gallery_list">
-                    <img src="https://images.pexels.com/photos/1640057/pexels-photo-1640057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt=" " />
-                    <img src="https://images.pexels.com/photos/871854/pexels-photo-871854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt=" " />
-                    <img src="https://images.pexels.com/photos/2085523/pexels-photo-2085523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt=" " />
-                    <img src="https://images.pexels.com/photos/219776/pexels-photo-219776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt=" " />
-                </div>
-                <div class="gallery_list">
-                    <img src="https://images.pexels.com/photos/2165931/pexels-photo-2165931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt=" " />
-                    <img src="https://images.pexels.com/photos/193040/pexels-photo-193040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt=" " />
-                    <img src="https://images.pexels.com/photos/371312/pexels-photo-371312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt=" " />
-                    <img src="https://images.pexels.com/photos/1777846/pexels-photo-1777846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt=" " />
-                    <img src="https://images.pexels.com/photos/1024996/pexels-photo-1024996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt=" " />
-                </div>
-            </div>
-        </section>
-        <!-- END GALLERY -->
     </main>
-    <footer>
-        <h3>Latif & Dewi</h3>
-    </footer>
+    <script src="main.js"></script>
 </body>
 
 </html>
